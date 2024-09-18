@@ -80,12 +80,7 @@ export default function Home() {
               scale,
             }}
           >
-            <iframe
-              src="https://www.youtube.com/embed/OuaUjkZhfqQ"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
+           
           </motion.div>
         </SectionLayout>
 
@@ -114,14 +109,4 @@ const MainStyled = styled.main`
     gap: 4rem;
   }
 
-  .video {
-    padding: 2rem;
-    background-color: #161616;
-    border-radius: 1rem;
-    iframe {
-      border: none;
-      width: 100%;
-      height: 52rem;
-    }
-  }
 `;
